@@ -1,13 +1,18 @@
 import { HeaderContainer, ListContainer, ItemContainer } from "./style";
 
-export const Header = () => {
+
+
+
+export const Header = (props) => {
   return(
     <HeaderContainer>
-      <h1>MUSIC SHOP</h1>
+      <h1>{ props.logo }</h1>
       <ListContainer>
-        <ItemContainer><a href='#'>Sobre</a></ItemContainer>
-        <ItemContainer><a href='#'>Produtos</a></ItemContainer>
-        <ItemContainer><a href='#'>Contatos</a></ItemContainer>
+      {props.items.map((item, index)=> {
+        return (
+          <ItemContainer><a href={ props.links[index] }>{ item }</a></ItemContainer>
+        )
+      })}
       </ListContainer>
     </HeaderContainer>
     )

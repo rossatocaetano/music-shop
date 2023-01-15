@@ -35,9 +35,15 @@ export const ItemContainer = styled.li`
   padding: 0 .25rem;
   a {
     text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
   }
   a:visited {
     color: inherit;
+  }
+  a:hover {
+    color: ${thirdColor};
+    font-weight: bold;
   }
   @media only screen and (min-width: ${ScreenSizes.mobile}){
     padding: 0 .5rem;    

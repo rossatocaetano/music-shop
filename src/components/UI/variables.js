@@ -5,6 +5,19 @@ export const thirdColor = "rgba(168, 218, 220, 1)";
 export const fourthColor = "rgba(69, 123, 157, 1)";
 export const fifthColor =  "rgba(29, 53, 87, 1)";
 
+/*HEX PALETTE
+1 - #e63946 (RED)
+2 - #f1faee (WHITE)
+3 - #a8dadc (LIGHT BLUE)
+4 - #457b9d (BLUE)
+5 - #1d3557 (DARK BLUE)
+
+
+
+
+*/
+
+
 /* MEDIA QUERIES BREAKPOINTS */
 /* export const bpExtraSmall = "376px";
 export const bpSmall = "576px";
