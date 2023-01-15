@@ -8,6 +8,7 @@ import { ProductsList } from "./components/ProductsList";
 import img_1 from "./img/img_1.jpg"
 import img_2 from "./img/img_2.jpg"
 import img_3 from "./img/img_3.jpg"
+import { FooterComponent } from "./components/Footer";
 
 
 const fakeImage = [img_1, img_2]
@@ -24,6 +25,7 @@ function App() {
         <Products image={img_2} items={fakeData}></Products>
         <Products image={img_3} items={fakeData}></Products>
       </ProductsList>
+      <FooterComponent></FooterComponent>
     </>
     
   );
