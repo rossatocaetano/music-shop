@@ -1,12 +1,17 @@
 import styled from "styled-components";
 import { firstColor, secondColor, thirdColor, fourthColor, fifthColor } from "../UI/variables";
 import ScreenSizes from "../UI/variables";
+import backgroundImage from "../../img/blob-haikei-1.svg"
+
 
 export const AboutContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: ${fifthColor};
+    background-repeat: no-repeat;
+    background-image: url(${backgroundImage});
+    background-size: cover;
     color: ${secondColor};
     font-size: 2rem;
     padding: 0 0;

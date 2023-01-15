@@ -17,4 +17,5 @@ export const FooterContainer = styled.footer`
     }
     @media only screen and (min-width : ${ScreenSizes.desktop}){
         font-size: 2.5 rem;
+    }
 `
