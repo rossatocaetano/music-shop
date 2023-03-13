@@ -6,7 +6,7 @@
 
 ## Descrição do projeto
 
-Esta é uma aplicação frontend com o objetivo de servir de template para uma página de captura de uma loja de instrumentos. 
+O modelo de página de captura intitulado New Music Shop é uma aplicação frontend responsiva que tem como objetivo catalogar produtos, simplificando o dia-a-dia do comerciante. A página foi projetada para ser simples e persuasiva, utilizando elementos visuais para convencer os usuários a entrarem em contato com a loja.
 
 
 ## Funcionalidades
@@ -18,15 +18,19 @@ Esta é uma aplicação frontend com o objetivo de servir de template para uma p
 
 ## Deploy da Aplicação
 
-> Acesse já: https://newmusicshop.netlify.app/
+A página de captura da New Music Shop está disponível em https://newmusicshop.netlify.app/.
 
 
 ## Pré-requisitos
+Para rodar a aplicação em um ambiente de desenvolvimento local, você precisa ter instalado em sua máquina:
 
 :books: [Node](https://nodejs.org/en/download/)
 
+:books: NPM
+
 
 ## Tecnologias
+A página de captura da New Music Shop foi desenvolvida utilizando as seguintes tecnologias:
 
 :hammer_and_wrench: React
 
@@ -35,8 +39,30 @@ Esta é uma aplicação frontend com o objetivo de servir de template para uma p
 
 ## Como rodar a aplicação
 
-No terminal, clone o projeto:
+1. No terminal, clone o projeto:
 
 ```
 $ git clone https://github.com/rossatocaetano/music-shop.git
 ```
+
+2. Acesse a pasta do projeto:
+
+```
+$ cd music-shop
+```
+
+3. Instale as dependências:
+
+```
+$ npm install
+```
+
+4. Rode a Aplicação:
+
+```
+$ npm start
+```
+
+5. Acesse a aplicação em seu navegador em http://localhost:3000
+
+
